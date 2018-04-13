@@ -8,4 +8,4 @@ Python 2.7.14</br>
 Linux distribution Debian based </br>
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CIB7M5Ttmr8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+[![IMAGE ALT TEXT](http://img.youtube.com/watch?v=CIB7M5Ttmr8/0.jpg)](youtube.com/watch?v=CIB7M5Ttmr8 "NotMINING Desktop (Linux)")
