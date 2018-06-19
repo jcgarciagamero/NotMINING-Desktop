@@ -30,7 +30,7 @@ if option == 1:
 	web = raw_input("Enter URL: ")
 	print("Result: ")
 	print("")
-	scan = "https://notmining.org/api/url?busqueda="+web
+	scan = "https://notmining.org/url?busqueda="+web
 	lines = urllib.urlopen(scan).read()
 
 	search = lines.find("NOT Mining!")
@@ -54,7 +54,7 @@ if option == 1:
 		print("")
 elif option == 2:
 	web = raw_input("Enter URL: ")
-	scan = "https://notmining.org/api/scan?busqueda="+web
+	scan = "https://notmining.org/scan?busqueda="+web
 	lines = urllib.urlopen(scan).read()
 
 	search = lines.find("NOT Mining!")
