@@ -30,7 +30,7 @@ if option == 1:
 	web = input("Enter URL: ")
 	print("Result: ")
 	print("")
-	scan = "https://notmining.org/analyze?busqueda="+web
+	scan = "https://notmining.org/url?busqueda="+web
 	lines = urllib.urlopen(scan).read()
 
 	search = lines.find("NOT Mining!")
@@ -54,7 +54,7 @@ if option == 1:
 		print("")
 elif option == 2:
 	web = input("Enter URL: ")
-	scan = "https://notmining.org/scan?busqueda="+web
+	scan = "https://notmining.org/analyze?busqueda="+web
 	lines = urllib.urlopen(scan).read()
 
 	search = lines.find("NOT Mining!")
@@ -63,11 +63,11 @@ elif option == 2:
 
 	if search != -1:
 		print("Not Mining")
-		print(f"Analysis: https://notmining.org/url?busqueda={web}")
+		print(f"Analysis: https://notmining.org/analyze?busqueda={web}")
 		print("")
 	elif search1 != -1:
 		print("Mining")
-		print(f"Analysis: https://notmining.org/url?busqueda={web}")
+		print(f"Analysis: https://notmining.org/analyze?busqueda={web}")
 		print("")
 	elif search2 != -1:
 		print("Enter a valid URL")
@@ -102,7 +102,7 @@ elif option == 0:
 	print("Twitter: @notminingorg")
 	print("E-Mail:  info@notmining.org")
 	print("Created by Jose C. García Gamero)
-	print("Update by @Manza_Root)
+	print("Updated by @Manza_Root)
 	sys.exit()
 
 else: 
