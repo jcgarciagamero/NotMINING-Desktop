@@ -27,7 +27,7 @@ if os.name == 'nt':
 			web = input("Enter URL: ")
 			print("Result: ")
 			print("")
-			scan = "https://notmining.org/url?busqueda="+web
+			scan = "https://notmining.org/analyze?busqueda="+web
 			a = requests.get(scan)
 			lines = a.text
 
@@ -48,7 +48,7 @@ if os.name == 'nt':
 				print("")
 		if option == "2":
 			web = input("Enter URL: ")
-			scan = "https://notmining.org/analyze?busqueda="+web
+			scan = "https://notmining.org/scan?busqueda="+web
 			a = requests.get(scan)
 			lines = a.text
 
@@ -93,7 +93,8 @@ if os.name == 'nt':
 			print("Website: http://notmining.org")
 			print("Twitter: @notminingorg")
 			print("E-Mail:  info@notmining.org")
-			print("Created by Jose C. García Gamero & Adam K. Martin")
+			print("Created by Jose C. García Gamero")
+			print("Updated by @Manza_Root")
 			sys.exit()
 
 		else: 
@@ -126,7 +127,7 @@ else:
 			web = input("Enter URL: ")
 			print("Result: ")
 			print("")
-			scan = "https://notmining.org/url?busqueda="+web
+			scan = "https://notmining.org/analyze?busqueda="+web
 						a = requests.get(scan)
 			lines = a.text
 
@@ -147,7 +148,7 @@ else:
 				print("")
 		if option == "2":
 			web = input("Enter URL: ")
-			scan = "https://notmining.org/analyze?busqueda="+web
+			scan = "https://notmining.org/scan?busqueda="+web
 						a = requests.get(scan)
 			lines = a.text
 
